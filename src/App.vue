@@ -1,13 +1,23 @@
 <template>
-  <div class="app">
-    <div class="nav">
-      <router-link to="/">News</router-link> |
-      <router-link to="/kalender">Kalender</router-link> |
-      <router-link to="/kasse">Kasse</router-link> |
-      <router-link to="/team">Team</router-link>
+  <section class="section">
+    <div class="container">
+      <nav class="level">
+        <p class="level-item has-text-centered">
+          <router-link class="link is-info" to="/">News</router-link>
+        </p>
+        <p class="level-item has-text-centered">
+          <router-link class="link is-info" to="/kalender">Kalender</router-link>
+        </p>
+        <p class="level-item has-text-centered">
+          <router-link class="link is-info" to="/kasse">Kasse</router-link>
+        </p>
+        <p class="level-item has-text-centered">
+          <router-link class="link is-info" to="/team">Team</router-link>
+        </p>
+      </nav>
     </div>
     <router-view />
-  </div>
+  </section>
 </template>
 
 <style>
@@ -17,8 +27,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-.nav {
-  padding: 30px;
 }
 </style>

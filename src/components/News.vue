@@ -1,6 +1,8 @@
 <template>
-  <div class="news">
-    News
+  <div class="container">
+    <div class="notification">
+      This container is <strong>centered</strong> on desktop.
+    </div>
   </div>
 </template>
 
